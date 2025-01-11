@@ -1,5 +1,8 @@
-Aplicación Android que utiliza la api de Amiibo
+Aplicación Android que utiliza el api de Amiibo
 https://www.amiiboapi.com/
+
+Añado la ruta especifica del apk de pruebas tambien se encuentra dentro de este repo:
+https://github.com/lefg095/AmiiboKbTest/blob/master/app-debug.apk
 
 ![image](https://github.com/user-attachments/assets/0c6fc9ec-a165-40f2-86da-826a96011d54)
 ![image](https://github.com/user-attachments/assets/2ed98e43-13df-40a5-bb8d-87da7789c33d)
