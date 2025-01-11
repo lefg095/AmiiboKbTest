@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.applicationtestkb.view.DashboardFragment"
+        android:label="Amiibo List"
+        tools:layout = "@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/action_to_detail"
+            app:destination="@+id/amiiboCharacterDetail"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.applicationtestkb.view.DetailFragment"
+        android:label="Character Detail"
+        tools:layout="@layout/fragment_character_detail"/>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.applicationtestkb.view.DashboardFragment"
+        android:label="Amiibo Favorite List"
+        tools:layout = "@layout/fragment_dashboard">
+
+    <action
+        android:id="@+id/action_to_detail"
+        app:destination="@+id/amiiboCharacterDetail"/> </fragment>
+
+</navigation>
